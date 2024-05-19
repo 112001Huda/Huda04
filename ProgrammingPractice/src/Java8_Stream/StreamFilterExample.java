@@ -13,6 +13,7 @@ public class StreamFilterExample {
         List<Integer> oddNumbers = numbers.stream()
                 .filter(n -> n % 2 != 0)
                 .collect(Collectors.toList());
+        System.out.println("Odd Numbers: " + oddNumbers); // Output: [7, 9, 3, 1]
 
         System.out.println("Odd Numbers: " + oddNumbers); // Output: [7, 9, 3, 1]
     }
