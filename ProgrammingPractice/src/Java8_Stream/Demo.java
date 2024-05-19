@@ -33,5 +33,28 @@ public class Demo {
 //  Samontika
 //  Brijesh
 //  John
+
+
+        //Selecting first 4 names
+
+        names.stream().limit(4).forEach(System.out::println);
+
+//  Output :
+
+//  David
+//  Johnson
+//  Samontika
+//  Brijesh
+
+
+        //Skipping first 4 names
+
+        names.stream().skip(4).forEach(System.out::println);
+
+//  Output :
+
+//  John
+//  David
+//  Brijesh
     }
 }

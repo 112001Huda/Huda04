@@ -1,9 +1,6 @@
 package Java8_Stream;
 
-
-
     import java.util.stream.Stream;
-
     public class StreamCreationExample {
         public static void main(String[] args) {
             // Creating a stream with multiple integers
