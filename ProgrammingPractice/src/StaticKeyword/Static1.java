@@ -5,7 +5,7 @@ public class Static1 {
     static int b = 200 ;                                    // Static variable
     static int c= 300;
     void show () {
-        int c = 300 ;                                       // Local variable
+        int c = 300 ;                                       // Local method
         System.out.println("This is instance method ");
     }
     static void test () {

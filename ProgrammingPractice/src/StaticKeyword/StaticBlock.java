@@ -5,11 +5,13 @@ public class StaticBlock {
         System.out.println("This is Static block And for static block we don't need to create an object and No need of MAIN method to run");
     }
 
-  /*  public static void main(String[] args) {
-    }*/
+    public static void main (String[] args) {
+
+    }
 }
-class Blocks extends StaticBlock {
+/* class Blocks extends StaticBlock {
     public static void main(String[] args) {
 
     }
 }
+*/

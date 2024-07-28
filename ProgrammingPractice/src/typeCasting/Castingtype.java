@@ -24,6 +24,8 @@ public class Castingtype extends Parentcast {
 }
 
 
+// it is runtime exception
+
 /*
  java doesn't allow Downcasting Bec In downcasting we create referance of child class but create object of parent class
  some methods are written in only in child class which are not present in parent class  so at compile time we found the

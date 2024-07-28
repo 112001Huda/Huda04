@@ -12,7 +12,7 @@ public class BlockinJava {
         System.out.println("This is Constructor");
     }
     void test (){
-        System.out.println("This is method in class ");                 // simple method
+        System.out.println("This is method in class ");                 // simple method  / Local method
     }
     public static void main(String[] args) {
        // System.out.println("This is Main method ");
@@ -21,6 +21,10 @@ public class BlockinJava {
         System.out.println("This is Main method ");                      // Main method
     }
 }
+
+
+
+
 
 //static block  -> main method  -> object create -> instance block -> constructor
 //want to print message before main method execution starts?

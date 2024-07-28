@@ -21,7 +21,7 @@ public class Static2 {
         S5.a = 700 ;
         S5.b = 110 ;
 
-        System.out.println(s2.a);
+        System.out.println(s2.a);         //
         System.out.println(s2.b);
 
         System.out.println(s3.a);

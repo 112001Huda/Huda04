@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.Driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">1437</property>
+        <property name="hbm2ddl.auto">create</property>
+        <property name="show_sql">true</property>
+        <mapping resource ="com/demo/Hibernate.hbm.xml"></mapping>
+        <property name=" hibernate.dialect.PostgreSQLDialect">org.hibernate.dialect.postgres</property>
+
+
+    </session-factory>
+</hibernate-configuration>
+
+
